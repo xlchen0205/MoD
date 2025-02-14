@@ -8,6 +8,30 @@
   </figcaption>
 </figure>
 
+## Setup
+
+```bash
+conda create MoD python=3.10
+conda activate MoD
+git clone https://github.com/c7785812/MoD.git
+cd MoD
+pip install -r requirements.txt
+```
+
+## Experiments
+# Obtaining Model Responses
+Here, we demonstrate how to obtain model responses using POPE as an example. The implementation for other benchmarks follows a similar approach.
+```
+cd experiments/POPE
+python run_pope.py
+```
+
+# Evaluating Model Performance
+```
+python eval_pope.py --gen_files path_to_generations.jsonl --gt_files ./data/coco/coco_pope_random.json
+```
+
+
 ## Case Study
 <figure>
   <img src="assets/casestudy_1.png" width="100%">
