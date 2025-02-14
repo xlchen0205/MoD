@@ -13,7 +13,6 @@
 ```bash
 conda create MoD python=3.10
 conda activate MoD
-git clone https://github.com/c7785812/MoD.git
 cd MoD
 pip install -r requirements.txt
 ```
