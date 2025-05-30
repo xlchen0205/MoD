@@ -50,5 +50,10 @@ python eval_pope.py --gen_files path_to_generations.jsonl --gt_files ./data/coco
 If you find our work helpful for your research, please consider citing our work.   
 
 ```bibtex
-TODO
+@article{chen2025mixture,
+  title={Mixture of Decoding: An Attention-Inspired Adaptive Decoding Strategy to Mitigate Hallucinations in Large Vision-Language Models},
+  author={Chen, Xinlong and Zhang, Yuanxing and Liu, Qiang and Wu, Junfei and Zhang, Fuzheng and Tan, Tieniu},
+  journal={arXiv preprint arXiv:2505.17061},
+  year={2025}
+}
 ```
